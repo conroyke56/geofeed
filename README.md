@@ -20,4 +20,24 @@ The geofeed file in this repository follows the specified CSV format:
 - `postal_code`: (Optional) The postal code for the location.
 
 Example entry:
+network,iso_country_code,iso_region_code,city_name,postal_code
+164.68.126.229,DE,BY,Nuremberg,90455
+
+
+## Purpose
+
+The primary aim of this repository is to ensure that the geolocation information associated with our networks is as accurate as possible. By publicly sharing this data, we can assist IP-based geolocation services in correctly identifying the geographical location of our IP addresses, improving the overall user experience for services that rely on this information.
+
+## How to Use
+
+The geofeed file can be directly accessed and downloaded by geolocation service providers and network administrators. Updates to the geolocation data will be periodically made to reflect any changes in network configurations or corrections to existing entries.
+
+## Contributions
+
+For corrections or updates to the geofeed data, please submit an issue or pull request to this repository. Ensure any contributions adhere to the RFC 8805 format specifications.
+
+## License
+
+This geofeed data is provided under [insert appropriate license here, e.g., MIT License] to allow for maximum usability and distribution.
+
 
